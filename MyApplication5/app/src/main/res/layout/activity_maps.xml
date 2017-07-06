@@ -1,0 +1,41 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.project.umang.myapplication.MapsActivity"
+    android:orientation="vertical"
+    >
+    <fragment
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set location"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/set"
+        style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#0080ff"
+        android:layout_centerInParent="true"/>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:background="#0080ff"
+        android:layout_centerInParent="true"/>
+<ImageView
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_centerInParent="true"
+    android:src="@drawable/unnamed"/>
+
+    </RelativeLayout>
