@@ -83,8 +83,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         else{
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 2);
         }
-        voi get main
-#android
+        
 
 
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
